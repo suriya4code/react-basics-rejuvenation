@@ -1,0 +1,54 @@
+.context {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url('../images/react-context.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: rgb(208, 202, 30);
+    transition: background-color 0.3s ease;
+}
+
+.context-page {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+
+.context-page:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.context-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.context-input:focus {
+    border-color: #4386d7;
+    outline: none;
+    box-shadow: 0 0 5px rgba(67, 134, 215, 0.5);
+}
+
+
+.context-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #24dd13;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}

@@ -22,12 +22,12 @@ return (
                 </li>
                 <li className="navbar-item">
                     <a href="#services" className="navbar-link">Services</a>
-                </li>
-                <li className="navbar-item">
-                    <a href="#contact" className="navbar-link">Contact</a>
                 </li> */}
                 <li className="navbar-item">
-                    <a href="/rj_reducer_trail" className="navbar-link">Reducer Trail</a>
+                    <a href="/rj-context" className="navbar-link">Context</a>
+                </li> 
+                <li className="navbar-item">
+                    <a href="/rj-reducer" className="navbar-link">Reducer</a>
                 </li>
                 <li className="navbar-item">
                     <a href="/inprogress" className="navbar-link">More InProgress..</a>
