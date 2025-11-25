@@ -6,6 +6,7 @@ import MainPage from './Layout/Main'
 import InProgress from './Pages/Inprogress'
 import RJ_ReducerTrail from './Pages/rj_reducers'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import RjContext from './Pages/rj_context'
 
 function App() {
 
@@ -17,7 +18,12 @@ function App() {
       element: <MainPage />,
     },
     {
-      path: '/rj_reducer_trail',
+      path: '/rj-context',
+      element: <RjContext />,  
+
+    },
+    {
+      path: '/rj-reducer',
       element: <RJ_ReducerTrail />,  
 
     },
