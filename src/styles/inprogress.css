@@ -1,0 +1,61 @@
+.inprogress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 70px); /* Adjust based on navbar height */
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+}
+
+.inprogress-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.inprogress-container p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.inprogress-container .spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #667eea;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1.2s linear infinite;
+  margin-bottom: 30px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.inprogress-container .back-button {
+  background-color: #667eea;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.inprogress-container .back-button:hover {
+  background-color: #5a67d8;
+  transform: translateY(-2px);
+}
+
